@@ -3,8 +3,7 @@
 ## Información del proyecto
 
 - **Estudiante:** Keiver Juseph Osorio Silvera
-- **Asignatura:** [Escribe el nombre de la asignatura]
-- **Docente:** [Escribe el nombre del docente]
+- **Asignatura:** [DESARROLLO DE APLICACIONES CON ACCESO A DATOS]
 - **Lenguaje:** Python
 - **ORM:** SQLAlchemy 2.x
 - **Base de datos:** SQLite
