@@ -164,10 +164,5 @@ no fue encontrado y no cambian los demás registros.
 3. Fue necesario comprender el ciclo de vida de una sesión y confirmar las
    transacciones con `commit()` para que los cambios quedaran persistidos.
 
-## Repositorio de partida
 
-https://github.com/epimient/orm_sql
 
-**Antes de entregar:** completa los datos de asignatura y docente, ejecuta
-todas las pruebas, agrega las capturas reales y verifica que el README las
-muestre correctamente en GitHub.
