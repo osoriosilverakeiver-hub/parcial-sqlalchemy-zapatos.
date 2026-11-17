@@ -129,38 +129,6 @@ Los registros permanecen porque se guardan en el archivo persistente
 nuevo, el motor se conecta al mismo archivo y las consultas recuperan los
 registros confirmados anteriormente. Los registros eliminados no reaparecen.
 
-## Pruebas y evidencias
-
-Ejecuta las pruebas siguientes y guarda capturas reales en `evidencias/`.
-No se incluyen capturas simuladas: las imágenes deben corresponder a la
-ejecución realizada por el estudiante.
-
-1. **Registro:** registra, por ejemplo, Adidas Run, talla 42, precio 180000;
-   y Nike Air, talla 40, precio 220000. Guarda `evidencias/01_registro.png`.
-2. **Listado:** selecciona la opción 2 y guarda `evidencias/02_listado.png`.
-3. **Búsqueda:** busca por ID uno de los zapatos y guarda
-   `evidencias/03_busqueda.png`.
-4. **Actualización:** cambia el precio de Adidas Run a 200000 y guarda
-   `evidencias/04_actualizacion.png`.
-5. **Eliminación:** elimina Nike Air y guarda `evidencias/05_eliminacion.png`.
-6. **Persistencia:** sal del programa, vuelve a ejecutar `python main.py`,
-   lista los registros y guarda `evidencias/06_persistencia.png`.
-
-Los ID asignados pueden variar. Utiliza los que muestre tu programa.
-
-### Pruebas con un ID inexistente
-
-Prueba buscar, actualizar y eliminar el ID `99999` (siempre que no exista).
-La búsqueda devuelve `None` y el menú informa que no encontró el zapato.
-La actualización y la eliminación devuelven `False`, muestran que el zapato
-no fue encontrado y no cambian los demás registros.
-
-## Conclusiones
-
-1. La implementación permite realizar las operaciones CRUD con SQLAlchemy ORM
-   y conservar los datos en SQLite.
-2. El ORM permite trabajar con objetos Python y métodos de sesión en lugar
-   de escribir manualmente sentencias SQL para cada operación.
 3. Fue necesario comprender el ciclo de vida de una sesión y confirmar las
    transacciones con `commit()` para que los cambios quedaran persistidos.
 
